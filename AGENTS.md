@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Architecture decisions
+
+- Use TanStack file-based routing with a shared route dispatcher for the broad demo URL catalog, because the starter framework is fixed and the experience spans many related pages.
