@@ -11,4 +11,4 @@
 
 ## Architecture decisions
 
-- Use TanStack file-based routing with a shared route dispatcher for the broad demo URL catalog, because the starter framework is fixed and the experience spans many related pages.
+- Use TanStack file-based routing with a shared dispatcher for the broad demo URL catalog, plus centralized mock data and React context, because the starter framework is fixed and the experience spans many related pages and shared browser-only shopping state.
